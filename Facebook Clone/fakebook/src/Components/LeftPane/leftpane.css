@@ -1,0 +1,101 @@
+/* leftpane.css */
+
+.leftPaneBox {
+    width: 250px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-right: 1px solid #ddd;
+    height: 100vh;
+    overflow-y:auto;
+    flex: 1;
+  }
+  
+  .leftPaneContainer {
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .leftPaneMenu {
+    list-style-type: none; /*remove dots */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .leftPaneMenuItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .pagesyouliked{
+    font:small;
+    background-origin: padding-box;
+    color: #0053be;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 3px;
+}
+   
+.liked_pages_picture{
+    width: 20px;
+    border-radius: 50%;
+    letter-spacing: 12ch;
+}
+    
+.like_pages_word{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: smaller;
+    }
+
+   .pagelistitems{
+    list-style-type:none;
+    padding : 20px;
+    padding-left:2px;
+   } 
+   .pagelistitems:hover{
+    background-color: #e4e6eb;
+    transform: translateX(5px);
+    border-radius: 30px;
+
+   }
+
+
+   .page_names{
+    font-weight: 2003;
+    font-size: 15px;
+    padding-left: 10px;
+    align-items: center;
+   }
+
+
+  .leftPaneMenuItem:hover {
+    background-color: #e4e6eb;
+    transform: translateX(10px);
+    border-radius: 8px;
+  }
+  
+  .leftPaneMenuIcon {
+    margin-right: 15px;
+    color: #418ae9; /* Facebook's blue color for icons */
+  }
+  
+  .leftPaneMenuText {
+    font-size: 16px;
+    color: #050505;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .leftPaneBox {
+      width: 100%;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
+
+    
+  }
+  

@@ -1,0 +1,45 @@
+.postImage{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 12px;
+}
+
+.posttop{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.postUserName{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 15px;
+}
+
+.posttime{
+    font-size: 10px;
+    /* position: fixed; */
+    margin-left: -39px;
+    margin-top: 35px;
+    display: flex;
+    
+    
+
+}
+.post1 {
+    width: 98%;
+    background-size: cover;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Create a subtle box shadow */
+    border-radius: 8px; /* Add rounded corners for a more modern look */
+    overflow: hidden; /* Ensure content stays within the bounds */
+    padding: 16px; /* Add some padding for better spacing */
+}
+.postcenter{
+    font-size: medium;
+    margin-left: 50px;
+    margin-top: 20px;
+}

@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* NavBar Styles */
+  .navBarBox {
+    width: 100%;
+    height: 70px;
+    background-color: #3b5998;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(252, 252, 252);
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+  }
+  
+  .navBarLeft .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+  .navBarCenter .searchBarBox {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .searchIcon {
+    color: #3b5998;
+  }
+  
+  .searchInput {
+    border: none;
+    outline: none;
+    margin-left: 30px;
+    color: #3b5998;
+  }
+  
+  .navBarRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navBarLinks {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+  }
+  
+  .navBarLinks .navBarLinks {
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .navBarIcons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    left: 500px;
+  }
+  
+  .navBarIcon {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .personIcon, .messageIcon, .settingIcon {
+    color: white;
+  }
+  
+  .iconTag {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    justify-content: left;
+  }
+  
+  /* Profile Picture */
+  .pic {
+    margin-left: -10px;
+  }
+  
+  .profilepic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  /* Additional Styles for Better Visuals */
+  .navBarLinks .navBarLinks:hover,
+  .navBarIcon:hover {
+    opacity: 0.7;
+  }
+  
+  .searchInput::placeholder {
+    color: #888;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navBarCenter {
+      display: none;
+    }
+  
+    .navBarLinks {
+      display: none;
+    }
+  
+    .navBarIcons {
+      gap: 10px;
+    }
+  
+    .profilepic {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
